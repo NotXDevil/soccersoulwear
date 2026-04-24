@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soccer Soulware</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell" id="top">
+    <header class="hero">
+      <nav class="topbar">
+        <a class="brand" href="#top">Soccer Soulware</a>
+        <div class="nav-links">
+          <a href="#kits">Jerseys</a>
+          <a href="#studs">Studs</a>
+          <a href="#culture">Culture</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy reveal">
+          <p class="eyebrow">Night Match Energy</p>
+          <h1>Own the tunnel walk. Rule the final whistle.</h1>
+          <p class="hero-text">
+            Soccer Soulware curates statement jerseys and elite studs for players
+            who want speed, swagger, and match-day identity in every step.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#kits">Shop Jerseys</a>
+            <a class="button button-secondary" href="#studs">Explore Studs</a>
+          </div>
+          <div class="hero-metrics">
+            <article>
+              <strong>120+</strong>
+              <span>Club & nation kits</span>
+            </article>
+            <article>
+              <strong>4.9/5</strong>
+              <span>Player-rated comfort</span>
+            </article>
+            <article>
+              <strong>48h</strong>
+              <span>Fast dispatch window</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="hero-visual reveal reveal-delay-1">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="card spotlight-card">
+            <span class="tag">Featured Drop</span>
+            <h2>Portugal Home 26/27</h2>
+            <p>Manually embroided detailing with a bold Ronaldo presentation and premium match-day finish.</p>
+            <div class="card-image hero-product-image">
+              <img src="assets/portugal-front.jpeg" alt="Portugal Home 26/27 jersey front view">
+            </div>
+          </div>
+          <div class="card boot-card">
+            <span class="tag">Featured Studs</span>
+            <h3>Adidas Predator Elite FG <span class="fan-favorite">Fan Favorite</span></h3>
+            <p>Command-heavy touch, aggressive strike texture, and locked-in traction for decisive play.</p>
+            <div class="boot-card-image">
+              <img src="assets/predator-01-clean.png" alt="Adidas Predator Elite FG football boots">
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section class="category-section shop-tabs" id="kits">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Shop By Category</p>
+          <h2>Switch between statement jerseys and match-ready studs in one clean storefront.</h2>
+        </div>
+        <div class="tab-shell reveal">
+          <div class="tab-controls" role="tablist" aria-label="Soccer Soulware categories">
+            <button class="tab-button is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-jerseys" id="tab-jerseys" data-tab-target="panel-jerseys">Jerseys</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-studs" id="tab-studs" data-tab-target="panel-studs">Studs</button>
+          </div>
+
+          <div class="tab-panel is-active" id="panel-jerseys" role="tabpanel" aria-labelledby="tab-jerseys">
+            <div class="panel-intro">
+              <p class="eyebrow">Signature Jerseys</p>
+              <h3>Built for spotlight entrances and ninety-minute intensity.</h3>
+            </div>
+            <div class="product-grid">
+              <article class="product-card product-card-featured reveal">
+                <button
+                  class="product-quickview-trigger"
+                  type="button"
+                  data-quickview-open
+                  data-product-badge="Closer View"
+                  data-product-title="Portugal Home 26/27 Jersey"
+                  data-product-description="Manually embroided detailing with a soft match-day finish, deep Portugal red texture, and a front-back Ronaldo presentation that feels ready for display or match day."
+                  data-product-price="INR 500"
+                  data-product-note="Hand-finished look"
+                  data-product-details="Front and back product view|Portugal crest and Ronaldo 7 presentation|Premium quick-view browsing experience"
+                  data-product-images="assets/portugal-front.jpeg|assets/portugal-back.jpeg"
+                  data-product-alts="Portugal Home 26/27 jersey front view|Portugal Home 26/27 jersey back view with Ronaldo 7 print"
+                  aria-label="Open closer view for Portugal Home 26/27 Jersey"
+                >
+                  <div class="product-art photo-gallery">
+                    <img src="assets/portugal-front.jpeg" alt="Portugal Home 26/27 jersey front view">
+                    <img src="assets/portugal-back.jpeg" alt="Portugal Home 26/27 jersey back view with Ronaldo 7 print">
+                  </div>
+                  <div class="product-copy">
+                    <span class="product-type">Featured Jersey</span>
+                    <h3>Portugal Home 26/27 Jersey</h3>
+                    <p>Manually embroided detailing with a soft match-day finish and front-back Ronaldo presentation.</p>
+                    <div class="product-meta">
+                      <strong>INR 500</strong>
+                      <span class="quickview-link">View closer</span>
+                    </div>
+                  </div>
+                </button>
+              </article>
+
+              <article class="product-card reveal reveal-delay-1">
+                <button
+                  class="product-quickview-trigger"
+                  type="button"
+                  data-quickview-open
+                  data-product-badge="Closer View"
+                  data-product-title="Argentina 26/27 Home Jersey"
+                  data-product-description="Bold black Argentina concept kit with electric blue flourishes, stitched crest energy, and front-back Messi 10 presentation made for collectors."
+                  data-product-price="INR 500 + 42 (shipping)"
+                  data-product-note="Collector concept finish"
+                  data-product-details="Front and back product view|Messi 10 back print|Premium dark concept Argentina artwork"
+                  data-product-images="assets/argentina-home-front.jpeg|assets/argentina-home-back.jpeg"
+                  data-product-alts="Argentina 26/27 home jersey front view|Argentina 26/27 home jersey back view with Messi 10 print"
+                  aria-label="Open closer view for Argentina 26/27 Home Jersey"
+                >
+                  <div class="product-art photo-single">
+                    <img src="assets/argentina-home-front.jpeg" alt="Argentina 26/27 home jersey front view">
+                  </div>
+                  <div class="product-copy">
+                    <span class="product-type">Home Jersey</span>
+                    <h3>Argentina 26/27 Home</h3>
+                    <p>Dark concept styling with electric blue artwork and a collector-grade front finish.</p>
+                    <div class="product-meta">
+                      <div class="price-stack">
+                        <strong>INR 500 + shipping</strong>
+                        <span class="stock-warning">Low in stock</span>
+                      </div>
+                      <span class="quickview-link">View closer</span>
+                    </div>
+                  </div>
+                </button>
+              </article>
+
+              <article class="product-card reveal reveal-delay-2">
+                <button
+                  class="product-quickview-trigger"
+                  type="button"
+                  data-quickview-open
+                  data-product-badge="Closer View"
+                  data-product-title="Spain Away 26/27 Jersey"
+                  data-product-description="Clean Spain away design with front, back, and crest detail views, highlighted by the Lamine Yamal 19 print and premium tonal patterning."
+                  data-product-price="INR 420 + 42 (shipping)"
+                  data-product-note="Embroided crest detail"
+                  data-product-details="Front, back, and detail image set|Lamine Yamal 19 back print|Soft white base with deep red and gold accents"
+                  data-product-images="assets/spain-away-front.jpeg|assets/spain-away-back.jpeg|assets/spain-away-detail.jpeg"
+                  data-product-alts="Spain away 26/27 jersey front view|Spain away 26/27 jersey back view with Lamine Yamal 19 print|Spain away 26/27 crest detail close view"
+                  aria-label="Open closer view for Spain Away 26/27 Jersey"
+                >
+                  <div class="product-art photo-single">
+                    <img src="assets/spain-away-front.jpeg" alt="Spain away 26/27 jersey front view">
+                  </div>
+                  <div class="product-copy">
+                    <span class="product-type">Away Jersey</span>
+                    <h3>Spain Away 26/27</h3>
+                    <p>Off-white away shirt with Lamine Yamal print and rich red-gold detailing.</p>
+                    <div class="product-meta">
+                      <strong>INR 420 + shipping</strong>
+                      <span class="quickview-link">View closer</span>
+                    </div>
+                  </div>
+                </button>
+              </article>
+
+              <article class="product-card reveal">
+                <button
+                  class="product-quickview-trigger"
+                  type="button"
+                  data-quickview-open
+                  data-product-badge="Closer View"
+                  data-product-title="England Away 26/27 Jersey"
+                  data-product-description="Bright England away look with front, back, and crest close-up views, finished with a Bellingham 10 print and strong contrast trim."
+                  data-product-price="INR 420 + 42 (shipping)"
+                  data-product-note="Embroided crest detail"
+                  data-product-details="Front, back, and detail image set|Bellingham 10 back print|High-contrast orange away statement"
+                  data-product-images="assets/england-away-front.jpeg|assets/england-away-back.jpeg|assets/england-away-detail.jpeg"
+                  data-product-alts="England away 26/27 jersey front view|England away 26/27 jersey back view with Bellingham 10 print|England away 26/27 crest detail close view"
+                  aria-label="Open closer view for England Away 26/27 Jersey"
+                >
+                  <div class="product-art photo-single">
+                    <img src="assets/england-away-front.jpeg" alt="England away 26/27 jersey front view">
+                  </div>
+                  <div class="product-copy">
+                    <span class="product-type">Away Jersey</span>
+                    <h3>England Away 26/27</h3>
+                    <p>Bright away release with Bellingham 10 presentation and close-up crest detail.</p>
+                    <div class="product-meta">
+                      <strong>INR 420 + shipping</strong>
+                      <span class="quickview-link">View closer</span>
+                    </div>
+                  </div>
+                </button>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="panel-studs" role="tabpanel" aria-labelledby="tab-studs" hidden>
+            <div class="panel-intro">
+              <p class="eyebrow">Precision Studs</p>
+              <h3>Explosive traction for wingers, finishers, and relentless pressers.</h3>
+            </div>
+            <div class="product-grid">
+              <article class="product-card reveal">
+                <div class="product-art photo-single photo-transparent">
+                  <img src="assets/predator-01-clean.png" alt="Adidas Predator Elite FG football boots">
+                </div>
+                <div class="product-copy">
+                  <span class="product-type">Adidas Predator</span>
+                  <h3>Predator Elite FG <span class="fan-favorite">Fan Favorite</span></h3>
+                  <p>Command-heavy touch, aggressive strike texture, and locked-in traction built for players who want every pass and finish to feel decisive.</p>
+                  <div class="product-meta">
+                    <strong>INR 6000</strong>
+                    <a href="#contact">Reserve now</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card reveal reveal-delay-1">
+                <div class="product-art photo-single photo-transparent">
+                  <img src="assets/f50-final.png" alt="Adidas F50 Elite FG football boots">
+                </div>
+                <div class="product-copy">
+                  <span class="product-type">Adidas F50</span>
+                  <h3>F50 Elite FG</h3>
+                  <p>Featherlight acceleration, razor-sharp touch, and a fast silhouette that pairs perfectly beside the Predator line.</p>
+                  <div class="product-meta">
+                    <strong>INR 6000</strong>
+                    <a href="#contact">Reserve now</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card reveal reveal-delay-2">
+                <div class="product-art photo-single photo-transparent">
+                  <img src="assets/mercurial-superfly-10.png" alt="Nike Mercurial Superfly 10 Elite FG football boots">
+                </div>
+                <div class="product-copy">
+                  <span class="product-type">Nike Mercurial</span>
+                  <h3>Mercurial Superfly 10 Elite FG</h3>
+                  <p>Electric speed wrapped in a sleek high-collar silhouette, built for ruthless bursts, sharp cuts, and fearless one-v-one moments.</p>
+                  <div class="product-meta">
+                    <strong>INR 6000</strong>
+                    <a href="#contact">Reserve now</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-band reveal" id="culture">
+        <div>
+          <p class="eyebrow">Soulware Standard</p>
+          <h2>Football fashion with match-level performance underneath.</h2>
+        </div>
+        <div class="feature-points">
+          <article>
+            <strong>01</strong>
+            <p>Premium fabrics that move like performance gear, not replicas.</p>
+          </article>
+          <article>
+            <strong>02</strong>
+            <p>Stud patterns tuned for grip, bursts, and sharp directional cuts.</p>
+          </article>
+          <article>
+            <strong>03</strong>
+            <p>Design language inspired by floodlights, concrete cages, and finals.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="category-section" id="studs">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Studs Engineering</p>
+          <h2>A closer look at the boot shape, traction profile, and speed-first design language.</h2>
+        </div>
+        <div class="studs-layout">
+          <article class="studs-showcase reveal">
+            <div class="boot-visual boot-photo-visual">
+              <img src="assets/predator-01-clean.png" alt="Adidas Predator Elite FG side profile">
+            </div>
+          </article>
+          <div class="studs-list">
+            <article class="info-card reveal reveal-delay-1">
+              <span class="tag">Predator Touch</span>
+              <h3>Adidas Predator</h3>
+              <p>Built for commanding first touches, whipped deliveries, and powerful strikes under pressure.</p>
+            </article>
+            <article class="info-card reveal reveal-delay-2">
+              <span class="tag">F50 Speed</span>
+              <h3>Adidas F50</h3>
+              <p>Made for breakaway runs, instant acceleration, and clean directional changes at full speed.</p>
+            </article>
+            <article class="info-card reveal">
+              <span class="tag">Mercurial Flight</span>
+              <h3>Nike Mercurial</h3>
+              <p>Featherlight aggression, explosive takeoff, and a streamlined fit made for players who want defenders chasing shadows.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section reveal" id="contact">
+        <p class="eyebrow">Join The Drop List</p>
+        <h2>Get first access to limited jerseys, fresh boot colorways, and match-night releases.</h2>
+        <form class="signup-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Notify Me</button>
+        </form>
+        <p class="contact-phone">Call or WhatsApp: +91 86986 94588</p>
+      </section>
+    </main>
+  </div>
+
+  <div class="quickview-modal" data-quickview-modal hidden>
+    <div class="quickview-backdrop" data-quickview-close></div>
+    <div class="quickview-dialog" role="dialog" aria-modal="true" aria-labelledby="quickview-title">
+      <button class="quickview-close" type="button" aria-label="Close closer view" data-quickview-close>Close</button>
+      <div class="quickview-grid">
+        <div class="quickview-gallery">
+          <div class="quickview-main-image">
+            <img id="quickview-main-image" src="assets/portugal-front.jpeg" alt="Portugal Home 26/27 jersey front view">
+          </div>
+          <div class="quickview-thumbs" id="quickview-thumbs">
+            <button class="quickview-thumb is-active" type="button" data-quickview-image="assets/portugal-front.jpeg" data-quickview-alt="Portugal Home 26/27 jersey front view">
+              <img src="assets/portugal-front.jpeg" alt="Portugal Home 26/27 jersey front thumbnail">
+            </button>
+            <button class="quickview-thumb" type="button" data-quickview-image="assets/portugal-back.jpeg" data-quickview-alt="Portugal Home 26/27 jersey back view with Ronaldo 7 print">
+              <img src="assets/portugal-back.jpeg" alt="Portugal Home 26/27 jersey back thumbnail">
+            </button>
+          </div>
+        </div>
+        <div class="quickview-copy">
+          <p class="eyebrow" id="quickview-badge">Closer View</p>
+          <h2 id="quickview-title">Portugal Home 26/27 Jersey</h2>
+          <p class="quickview-description" id="quickview-description">
+            Manually embroided detailing with a soft match-day finish, deep Portugal red texture,
+            and a front-back Ronaldo presentation that feels ready for display or match day.
+          </p>
+          <div class="quickview-price-row">
+            <strong id="quickview-price">INR 500</strong>
+            <span id="quickview-note">Hand-finished look</span>
+          </div>
+          <ul class="quickview-details" id="quickview-details">
+            <li>Front and back product view</li>
+            <li>Portugal crest and Ronaldo 7 presentation</li>
+            <li>Premium quick-view browsing experience</li>
+          </ul>
+          <a class="button button-primary" href="#contact">Reserve This Jersey</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
